@@ -5,7 +5,7 @@ import styles from 'components/ContactsForm/ContactsForm.module.css'
 
 
 function ContactsForm ({onSubmit}) {
-  const [contacts, setContacts] = useState([]);
+  const [contacts, ] = useState([]);
   const [name, setName] = useState('');
   const [number, setNumber] =useState('');
    
